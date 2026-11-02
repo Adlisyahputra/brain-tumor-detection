@@ -13,9 +13,26 @@ Project belajar deep learning: mengklasifikasikan gambar MRI otak ke dalam empat
 | `app.py` | Aplikasi Flask: halaman web dan endpoint `/api/predict` |
 | `templates/index.html` | Halaman unggah gambar dan tampilan hasil |
 
+## Sumber dan kredit
+
+Project ini dikerjakan sambil belajar, dengan mengikuti tutorial dan kode terbuka berikut:
+
+- Video tutorial: https://www.youtube.com/watch?v=MTQQnziWGQY&t=2465s
+- Repo asal kode: https://github.com/611noorsaeed/Brain-Tumor-Detection-Using-Deep-Learning-MRI-Images-Detection-Using-Computer-Vision/tree/main
+
+
+Alur dan sebagian besar kode di notebook training mengikuti sumber di atas. Yang saya kerjakan atau ubah sendiri:
+
+- Menjalankan ulang training dan evaluasi di Google Colab, lalu menganalisis kesalahan model (glioma yang terdeteksi sebagai normal, glioma dan meningioma yang tertukar).
+- Menyesuaikan urutan label supaya cocok dengan model saya (urutan di kode asal berbeda dan akan menghasilkan label yang salah).
+- Memperkecil model dari sekitar 122 MB menjadi sekitar 60 MB dengan membuang status optimizer.
+- Membuat aplikasi web Flask lokal dengan endpoint JSON dan tampilan probabilitas tiap kelas, dibuat dengan bantuan asisten AI (Claude).
+- Menulis catatan keterbatasan dan ide pengembangan di README ini.
+
 ## Dataset
 
 Brain Tumor MRI Dataset dari Kaggle, berisi gambar MRI otak dalam 4 kelas. Dataset tidak disertakan di repo, silakan unduh dari Kaggle: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
 Dataset ini gabungan dari beberapa sumber publik, jadi baca deskripsinya di Kaggle untuk asal dan keterbatasannya.
 
 ## Model dan training
