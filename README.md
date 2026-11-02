@@ -15,8 +15,7 @@ Project belajar deep learning: mengklasifikasikan gambar MRI otak ke dalam empat
 
 ## Dataset
 
-Brain Tumor MRI Dataset dari Kaggle, berisi gambar MRI otak dalam 4 kelas. Dataset tidak disertakan di repo, silakan unduh dari Kaggle: **(tempel link dataset yang kamu pakai di sini)**.
-
+Brain Tumor MRI Dataset dari Kaggle, berisi gambar MRI otak dalam 4 kelas. Dataset tidak disertakan di repo, silakan unduh dari Kaggle: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 Dataset ini gabungan dari beberapa sumber publik, jadi baca deskripsinya di Kaggle untuk asal dan keterbatasannya.
 
 ## Model dan training
