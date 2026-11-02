@@ -26,7 +26,7 @@ Alur dan sebagian besar kode di notebook training mengikuti sumber di atas. Yang
 - Menjalankan ulang training dan evaluasi di Google Colab, lalu menganalisis kesalahan model (glioma yang terdeteksi sebagai normal, glioma dan meningioma yang tertukar).
 - Menyesuaikan urutan label supaya cocok dengan model saya (urutan di kode asal berbeda dan akan menghasilkan label yang salah).
 - Memperkecil model dari sekitar 122 MB menjadi sekitar 60 MB dengan membuang status optimizer.
-- Membuat aplikasi web Flask lokal dengan endpoint JSON dan tampilan probabilitas tiap kelas, dibuat dengan bantuan asisten AI (Claude).
+- Membuat aplikasi web Flask lokal dengan endpoint JSON dan tampilan probabilitas tiap kelas.
 - Menulis catatan keterbatasan dan ide pengembangan di README ini.
 
 ## Dataset
